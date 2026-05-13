@@ -1,0 +1,58 @@
+/* MediaCrawler Design 暗色主题 */
+
+:root {
+  --vp-c-bg: #0f0f1a;
+  --vp-c-bg-alt: #1a1a2e;
+  --vp-c-bg-elv: #16162a;
+  --vp-c-text-1: #e0e0e0;
+  --vp-c-text-2: #aaa;
+  --vp-c-brand-1: #ff6b6b;
+  --vp-c-brand-2: #ee5a5a;
+  --vp-c-brand-3: #ff4757;
+  --vp-c-divider: #2a2a4a;
+  --vp-nav-bg-color: #1a1a2e;
+  --vp-sidebar-bg-color: #1a1a2e;
+  --vp-code-block-bg: #0d0d1a;
+}
+
+.VPHome {
+  background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 50%, #16213e 100%);
+  padding: 2rem 0;
+}
+
+.VPHero .name {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ff4757 50%, #ff7043 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.VPFeature {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 107, 107, 0.15) !important;
+  transition: all 0.3s ease !important;
+}
+
+.VPFeature:hover {
+  background: rgba(255, 107, 107, 0.08) !important;
+  border-color: rgba(255, 107, 107, 0.4) !important;
+  transform: translateY(-4px) !important;
+  box-shadow: 0 12px 40px rgba(255, 71, 87, 0.15) !important;
+}
+
+.VPNav {
+  background: rgba(26, 26, 46, 0.95) !important;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.VPButton.medium.brand {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ff4757 100%);
+  border: none;
+}
+
+.VPButton.medium.brand:hover {
+  background: linear-gradient(135deg, #ff7b7b 0%, #ff5a5a 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255, 71, 87, 0.35);
+}
